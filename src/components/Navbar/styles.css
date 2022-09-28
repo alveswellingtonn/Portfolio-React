@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(23, 37, 65);
+    padding: 20px;
+    height: 25px;
+  }
+
+  ul {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    list-style: none;
+    float: right;
+  }
+
+  ul li{
+    float: left;
+  }
+
+  ul li a{
+    display: block;
+	  margin-right: 25px;
+	  text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    color: #54E7E2;
+    border-bottom: 1px solid #54E7E2;
+}
