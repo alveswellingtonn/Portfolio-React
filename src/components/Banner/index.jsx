@@ -65,7 +65,7 @@ function Banner() {
                         em seguida exibi outra imagem.
                         <br/>
                         <p className='ver-projeto'>
-                            <a href="https://play.google.com/store/apps/details?id=br.com.wellington.caieiras_tour" target="_blank" rel='noreferrer'>
+                            <a href="http://wellingtonmoraes.epizy.com/parallax.html" target="_blank" rel='noreferrer'>
                                 Conheça meu projeto
                             </a>
                         </p>
