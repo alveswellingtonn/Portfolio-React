@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import avatar5 from "../../assets/img/avatar5.jpg"
+import avatar5 from "../../assets/img/avatar5.jpg";
 
 function Banner() {
 
