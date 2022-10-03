@@ -19,7 +19,7 @@ function Banner() {
 
                 <a href="https://www.linkedin.com/in/wellington-alves-de-moraes-117969106/" target="_blank" rel='noreferrer'>Linkedin</a>
 
-                <a href="https://www.linkedin.com/in/wellington-alves-de-moraes-117969106/" target="_blank" rel='noreferrer'>GitHub</a>
+                <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
 
             </section>
 
