@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Navbar() {
@@ -9,13 +10,10 @@ function Navbar() {
 
                 <ul>
                     <li>
-                        <a href='https://www.linkedin.com/in/wellington-alves-de-moraes/' target='_blank' rel='noreferrer'>Home</a>
+                        <Link to='/'> Home</Link>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/wellington-alves-de-moraes/' target='_blank' rel='noreferrer'>Portfolio</a>
-                    </li>
-                    <li>
-                        <a href='https://www.linkedin.com/in/wellington-alves-de-moraes/' target='_blank' rel='noreferrer'>Contato</a>
+                        <Link to='/portfolio'>Portfolio</Link>
                     </li>
                 </ul>
 

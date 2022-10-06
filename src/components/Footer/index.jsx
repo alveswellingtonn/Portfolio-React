@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
