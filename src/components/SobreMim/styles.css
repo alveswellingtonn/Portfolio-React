@@ -1,0 +1,36 @@
+/* Inicio Conteudo Sobre mim */
+
+.sobre-mim {
+    margin-top: 60px;
+}
+
+.sobre-mim h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim p {
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+    text-align: left;
+}
+
+/* Fim Conteudo Sobre mim */
+
+@media (max-width: 800px) {
+
+    .sobre-mim p {
+        text-align:center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+}

@@ -1,0 +1,86 @@
+.contato {
+    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.email h2{
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.email p{
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+}
+
+.telefone {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.telefone h2{
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.telefone p{
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+}
+
+/*  formulario da pagina contato*/
+.formulario-contato form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 1px;
+    font-family: sans-serif;
+}
+
+.formulario input {
+    margin-bottom: 10px;
+    width: 50%;
+    height: 25px;
+    font-family: sans-serif;
+}
+
+.formulario textarea {
+    margin-bottom: 40px;
+    width: 50%;
+    height: 10em;
+    display: block;
+    font-family: sans-serif;
+}
+
+.formulario button{
+    color: #fff;
+    background-color: #172541;
+    border:2px solid #172541;
+    padding: 5px 20px;
+    height: 45px;
+    width: 10%;
+    border-radius: 5px;
+    font-family: sans-serif;
+} 

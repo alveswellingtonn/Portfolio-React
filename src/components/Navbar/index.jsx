@@ -4,22 +4,25 @@ import './styles.css';
 
 function Navbar() {
     return (
-        <header>
-            
-            <nav>
+            <header>
 
-                <ul>
-                    <li>
-                        <Link to='/'> Home</Link>
-                    </li>
-                    <li>
-                        <Link to='/portfolio'>Portfolio</Link>
-                    </li>
-                </ul>
+                <nav>
 
-            </nav>
+                    <ul>
+                        <li>
+                            <Link to='/'> Home</Link>
+                        </li>
+                        <li>
+                            <Link to='/portfolio'>Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link to='/contato'>Contato</Link>
+                        </li>
+                    </ul>
 
-        </header>
+                </nav>
+
+            </header>
     );
 }
 

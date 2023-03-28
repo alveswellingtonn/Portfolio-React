@@ -1,10 +1,12 @@
 import React from 'react';
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
-import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Portfolio from './components/Portfolio';
+import Home from './pages/Home';
+import Projeto from './pages/Projeto';
+import Contato from './pages/Contato';
+
 
 function App() {
   return (
@@ -13,8 +15,9 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={ <Banner /> } />
-        <Route path='/portfolio' element={ <Portfolio /> } />
+        <Route path='/' element={ <Home /> } />
+        <Route path='/portfolio' element={ <Projeto /> } />
+        <Route path='/contato' element={ <Contato /> } />
       </Routes>
 
       <Footer />
