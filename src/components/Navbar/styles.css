@@ -1,5 +1,6 @@
 header {
-    background-color: rgb(23, 37, 65);
+    /* background-color: rgb(23, 37, 65); */
+    background-color: #1F1E38;
     padding: 20px;
     height: 25px;
     position: fixed;
@@ -30,6 +31,6 @@ header {
   }
 
   ul li a:hover {
-    color: #54E7E2;
-    border-bottom: 1px solid #54E7E2;
+    color: #4db5ff;
+    border-bottom: 1px solid #4db5ff;
 }

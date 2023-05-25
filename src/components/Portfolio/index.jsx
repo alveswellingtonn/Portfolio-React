@@ -1,108 +1,96 @@
 import React from 'react';
 import './styles.css';
 
+// import avatar from "../../assets/img/avatar5.jpg";
+import banner_imc from "../../assets/img/banner_imc.png";
+import parallax from "../../assets/img/parallax.png";
+import recurso_grafico from "../../assets/img/recurso-grafico.png";
+
 function Portfolio() {
 
     return (
 
         <section className='container'>
 
-            <section className='portfolio'>
-                <h2>
-                    <p>Projetos</p>
-                </h2>
-            </section>
+            <h2 className='portfolio'>
+                Projetos
+            </h2>
 
-            <section className='card-container'>
+            <section className='portfolio-container'>
 
-                <section className='card'>
-                    <section className='card-wrapper'>
-                        <h2>Parallax</h2>
-                        <p>Veja meu projeto</p>
+                <article className='portfolio-item'>
+                    <section className='portfolio-image'>
+                        <img src={recurso_grafico} alt="teste" />
                     </section>
-                </section>
-
-                <section className='card-text'>
-                    Este site foi criado com um efeito de parallax que ocorre alternancias entre as camadas de imagens que 
-                    deixa a impressão de movimento, onde ao passar a página o texto na tela cobre uma imagem e 
-                    em seguida exibi outra imagem.
-
-                    <br/>
-
-                    <p className='ver-projeto'>
-                        <a href="http://wellingtonmoraes.epizy.com/parallax.html" target="_blank" rel='noreferrer'>
-                            Conheça meu projeto
-                        </a>
-                    </p>
-
-                </section>
-
-            </section>
-
-            <section className='card-container-segundo'>
-
-                <section className='card-text-segundo'>
-                    No guia Caieiras Tour você vai encontrar informações sobre diversas atrações turísticas,
-                    restaurantes, hospitais e ubs entre muitas outras informações.
-
-                    <br/><br/>
-
-                    O aplicativo foi desenvolvido 
-                    com o objetivo de ajudar as pessoas que visitam a cidade.
-
-                    <br/>
-
-                    <p className='ver-projeto'>
-                        <a href="https://play.google.com/store/apps/details?id=br.com.wellington.caieiras_tour" target="_blank" rel='noreferrer'>
-                            Conheça meu projeto
-                        </a>
-                    </p>
-
-                </section>
-
-                <section className='card-segundo'>
-
-                    <section className='card-wrapper-segundo'>
-                        <h2>Caieiras Tour</h2>
-                        <p>Veja meu projeto</p>
+                    <h3>
+                        Aplicativo Caieiras Tour
+                    </h3>
+                    <section className='btn'>
+                        <a href="https://play.google.com/store/apps/details?id=br.com.wellington.caieiras_tour" target="_blank" rel='noreferrer'>App</a>
+                        <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
                     </section>
+                </article>
 
-                </section>
-
-            </section>
-
-            <section className='card-container-terceiro'>
-
-                <section className='card-terceiro'>
-
-                    <section className='card-wrapper-terceiro'>
-                        <h2>IMC</h2>
-                        <p>Veja meu projeto</p>
+                <article className='portfolio-item'>
+                    <section className='portfolio-image'>
+                        <img src={banner_imc} alt="teste" />
                     </section>
+                    <h3>
+                        Aplicativo IMC
+                    </h3>
+                    <section className='btn'>
+                        <a href="https://play.google.com/store/apps/details?id=br.com.wellington.imc" target="_blank" rel='noreferrer'>App</a>
+                        <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
+                    </section>
+                </article>
 
-                </section>
+                <article className='portfolio-item'>
+                    <section className='portfolio-image'>
+                        <img src={parallax} alt="teste" />
+                    </section>
+                    <h3>Site efeito parallax js html css</h3>
 
-                <section className='card-text-terceiro'>
-                    Com este aplicativo você pode calcular seu imc e salvar suas informações para monitorar os 
-                    seus resultados. Estar acima do peso ou ser obeso pode aumentar o risco de doenças 
-                    relacionadas à obesidade tais como: hipertensão, doenças cardíacas e diabetes.
+                    <section className='btn'>
+                        <a href="https://www.linkedin.com/in/wellington-alves-de-moraes-117969106/" target="_blank" rel='noreferrer'>Linkedin</a>
+                        <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
+                    </section>
+                </article>
 
-                    <br/><br/>
+                <article className='portfolio-item'>
+                    <section className='portfolio-image'>
+                        <img src={parallax} alt="teste" />
+                    </section>
+                    <h3>Site efeito parallax js html css</h3>
 
-                    Descubra o seu peso ideal e tente alcançá-lo com atividades físicas ganhando 
-                    mais saúde e evitando assim as doenças relacionadas à obesidades.
+                    <section className='btn'>
+                        <a href="https://www.linkedin.com/in/wellington-alves-de-moraes-117969106/" target="_blank" rel='noreferrer'>Linkedin</a>
+                        <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
+                    </section>
+                </article>
 
-                    <br/>
+                <article className='portfolio-item'>
+                    <section className='portfolio-image'>
+                        <img src={parallax} alt="teste" />
+                    </section>
+                    <h3>Site efeito parallax js html css</h3>
 
-                    <p className='ver-projeto'>
+                    <section className='btn'>
+                        <a href="https://www.linkedin.com/in/wellington-alves-de-moraes-117969106/" target="_blank" rel='noreferrer'>Linkedin</a>
+                        <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
+                    </section>
+                </article>
 
-                        <a href="https://play.google.com/store/apps/details?id=br.com.wellington.imc" target="_blank" rel='noreferrer'>
-                            Conheça meu projeto
-                        </a>
-                        
-                    </p>
+                <article className='portfolio-item'>
+                    <section className='portfolio-image'>
+                        <img src={parallax} alt="teste" />
+                    </section>
+                    <h3>Site efeito parallax js html css</h3>
 
-                </section>
+                    <section className='btn'>
+                        <a href="https://www.linkedin.com/in/wellington-alves-de-moraes-117969106/" target="_blank" rel='noreferrer'>Linkedin</a>
+                        <a href="https://github.com/alveswellingtonn" target="_blank" rel='noreferrer'>GitHub</a>
+                    </section>
+                </article>
 
             </section>
 

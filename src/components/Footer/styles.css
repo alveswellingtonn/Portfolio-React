@@ -1,6 +1,7 @@
 footer {
     height: auto;
-    background: #172541;
+    /* background: #172541; */
+    background-color: #1F1E38;
     display: flex;
     flex-direction: column;
     padding-top: 55px;
@@ -20,7 +21,7 @@ footer .footer-link a {
 }
 
 footer .footer-link a:hover  {
-    color: #54E7E2;
+    color: #4db5ff;
 }
 
 footer .footer-texto {
