@@ -3,7 +3,7 @@ import './styles.css';
 
 // import avatar from "../../assets/img/avatar5.jpg";
 import banner_imc from "../../assets/img/banner_imc.png";
-import parallax from "../../assets/img/parallax.png";
+import parallax from "../../assets/img/parallax_resized.png";
 import recurso_grafico from "../../assets/img/recurso-grafico.png";
 import gym from "../../assets/img/gym_react.png";
 import calc_imc from "../../assets/img/calculadora_imc.png";
