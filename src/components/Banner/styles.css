@@ -3,7 +3,7 @@
 .capa {
     height: 100vh;
     /* background: linear-gradient(-45deg, #0A101B, #172541, #233A68, #2F4F8F); */
-    background-size: 400% 400%;
+    /* background-size: 400% 400%; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -108,25 +108,158 @@
 
 /* 320px - 480px / 481px - 800px / 801px - 1200px /  a partir de 1200px */
 
-@media (max-width: 800px) {
+@media (max-width: 320px) {
 
-    .social-media {
+    .capa {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-button {
         display: flex;
         flex-direction: column;
+        gap: 1.2rem;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .avatar img {
+        margin-top: 100px;
+        border-radius: 30px;
+        width: 115px;
+        height: 150px;
+    }
+
+    .social-media h1 {
+        font-size: 22px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .social-media p {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .social-media a {
+        font-size: 18px;
     }
     
 }
 
-@media screen and (max-width: 1024px) {
-    .portfolio-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.8rem;
+@media (max-width: 375px) {
+
+    .capa {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-button {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .avatar img {
+        margin-top: 100px;
+        border-radius: 30px;
+        width: 115px;
+        height: 150px;
+    }
+
+    .social-media h1 {
+        font-size: 22px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .social-media p {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .social-media a {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .capa {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-button {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .avatar img {
+        margin-top: 100px;
+        border-radius: 30px;
+        width: 115px;
+        height: 150px;
+    }
+
+    .social-media h1 {
+        font-size: 22px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .social-media p {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .social-media a {
+        font-size: 18px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .portfolio-container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+@media screen and (max-width: 768px) {
+    .capa {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-button {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .avatar img {
+        margin-top: 100px;
+        border-radius: 30px;
+        width: 115px;
+        height: 150px;
+    }
+
+    .social-media h1 {
+        font-size: 22px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .social-media p {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .social-media a {
+        font-size: 18px;
     }
 }
